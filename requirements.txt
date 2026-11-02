@@ -1,0 +1,22 @@
+# Extracción de PDFs
+pymupdf==1.24.5
+pdfplumber==0.11.2
+pytesseract==0.3.13
+Pillow==10.4.0
+
+# Embeddings y búsqueda semántica
+sentence-transformers==3.0.1
+chromadb==0.5.3
+
+# Búsqueda por keywords (híbrida)
+rank-bm25==0.2.2
+
+# LLM local vía Ollama
+ollama==0.3.0
+
+# Interfaz de usuario
+gradio==4.44.1
+
+# Utilidades
+python-dotenv==1.0.1
+tqdm==4.66.5

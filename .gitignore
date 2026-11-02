@@ -1,0 +1,23 @@
+# Documentos confidenciales (PDFs renombrados a .file)
+pdfs/
+*.file
+*.pdf
+
+# Índice vectorial y hashes (contienen texto y metadatos de los informes)
+data/
+
+# Salidas de diagnóstico y logs (contienen nombres de archivo, clientes, RUTs)
+diagnostico_resultado.json
+*_log.txt
+*_err.txt
+*.log
+
+# Entorno virtual y caché de Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Configuración local
+.env
+.vscode/
